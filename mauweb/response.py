@@ -12,9 +12,6 @@ file_content_types = {
 
 class Response:
 
-    """
-    Base Response Class
-    """
     __slots__ = 'headers', 'status_code', 'start_response', 'content_type', 'response_content'
 
     def __init__(self,request: Request, status_code: str, content_type: str):
