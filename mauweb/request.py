@@ -1,8 +1,3 @@
-"""
-request.py
-Holds the Request class that is basically our way of extracting all the things we need into 
-a class representation
-"""
 
 import cgi
 
